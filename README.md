@@ -25,7 +25,7 @@ Persist and hydrate [MobX-state-tree](https://github.com/mobxjs/mobx-state-tree)
 
 ```javascript
 import { types } from 'mobx-state-tree'
-import localForage from 'localForage'
+import localForage from 'localforage'
 import { persist } from 'mst-persist'
 
 const SomeStore = types.model('Store', {
